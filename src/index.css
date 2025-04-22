@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+/* 1. Police custom (ne pas toucher) */
+@font-face {
+  font-family: "InterOfficial";
+  src: url("/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+* {
+  font-family: "InterOfficial", sans-serif;
+}
+
+/* 3. Fond par défaut */
+body {
+  background-color: #f6f6f6;
+}
+
+/* 4. Couleurs dégradées des boutons actifs */
+.workcolor,
+.playcolor {
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 600;
+}
+
+/* Dégradé de "work" */
+.workcolor {
+  background-image: linear-gradient(117deg, #838386, #26262a);
+}
+
+/* Dégradé de "play" */
+.playcolor {
+  background-image: linear-gradient(117deg, #8080ff, #f85392);
+  color: #6f6f75; /* fallback si gradient pas supporté */
+}
+
+.shadow-nav {
+  box-shadow: 0 8px 32px #00000029;
+}
+.shadow-btn-nav{
+  box-shadow: 0 8px 48px #0000001f;
+}
+
+
+
+
