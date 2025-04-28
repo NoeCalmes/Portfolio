@@ -46,6 +46,21 @@ body {
   box-shadow: 0 8px 48px #0000001f;
 }
 
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 9999px; /* full rounded */
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999;
+  opacity: 0; /* par défaut invisible */
+  transition: opacity 0.3s ease;
+}
+
+
 
 
 

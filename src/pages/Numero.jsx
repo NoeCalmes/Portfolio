@@ -1,28 +1,16 @@
 // src/pages/Numero.jsx
 import React from "react";
-
+import { FaGithub } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Numero() {
   return (
-    <div className="pt-20 min-h-screen max-w-232 flex flex-col items center m-auto mb-25">
-      <div className="w-full mb-15 overflow-hidden rounded-lg">
-        <video
-          className="w-full object-cover rounded-md h-72"
-          autoPlay
-          muted
-          loop
-          playsInline
-          preload="metadata"
-          poster="/videos/numero-poster.png"
-        >
-          <source src="/videos/numero.mp4" type="video/mp4" />
-        </video>
-      </div>
+    <div className="pt-30 min-h-screen max-w-232 flex flex-col m-auto mb-10 sm:mb-25 p-6">
       <img
-        src="icons/numero-icon.png"
+        src="images/home/numero-icon.png"
         alt=""
         className="h-9 w-9 rounded-lg mb-4"
       />
-      <h1 className="text-[45px] font-extrabold leading-[140%] mb-3 text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_58%,#5e5e63)]">
+      <h1 className=" text-[35px] sm:text-[45px] font-extrabold leading-[140%] mb-3 text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_58%,#5e5e63)]">
         Application web
       </h1>
       <div className="flex items-center mb-8.5">
@@ -34,8 +22,8 @@ export default function Numero() {
           2024
         </p>
       </div>
-      <div className="flex flex-row justify-center items-start mb-18">
-        <div className="flex flex-col mr-16 w-120">
+      <div className="flex flex-col lg:flex-row justify-center items-start mb-6">
+        <div className="flex flex-col mr-16 sm:w-120">
           <p className="text-lg leading-[1.7] text-[#323235] leadin-[150%] mb-8">
             Développer une plateforme interactive permettant aux utilisateurs de
             signaler et d'évaluer des numéros de téléphone, avec pour objectif
@@ -49,31 +37,50 @@ export default function Numero() {
             <p className="font-extrabold text-sm mb-2 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
               Rôle
             </p>
-            <p className="text-[16px] text-[#323235]">Stagiaire</p>
-          </div>
-          <div className="">
-            <p className="font-extrabold text-sm mb-2 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
-              Responsabilités
-            </p>
             <p className="text-[16px] text-[#323235]">
               Responsable du projet <br></br>de A à Z
             </p>
           </div>
+          <div className="">
+            <p className="whitespace-nowrap font-extrabold text-sm mb-2 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
+              LANGUAGES FRAMWORKS
+            </p>
+            <p className="text-[16px] text-[#323235]">• CodeIgniter</p>
+            <p className="text-[16px] text-[#323235]">• ORM Eloquente</p>
+          </div>
         </div>
         <div className="flex flex-col">
-          <div className="mb-8">
+          <div className="mb-6">
             <p className="font-extrabold text-sm mb-2 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
               TEAM
             </p>
-            <p className="text-[16px] text-[#323235] mb-2">
-              Maxime Product Owner
-            </p>
+            <p className="text-[16px] text-[#323235] mb-2">Maxime PO</p>
             <p className="text-[16px] text-[#323235]">Noé Calmes Stagiaire</p>
+          </div>
+          <div className="">
+            <p className="whitespace-nowrap font-extrabold text-sm mb-2 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
+              durée
+            </p>
+            <p className="text-[16px] text-[#323235]">6 semaines (Stage)</p>
           </div>
         </div>
       </div>
 
-      <div className="w-150 m-auto mb-8">
+      <div className="w-full mb-15 overflow-hidden rounded-lg">
+        <video
+          className="m-auto w-full lg:w-full rounded-md md:h-72 "
+          autoPlay
+          muted
+          loop
+          playsInline
+          preload="metadata"
+          poster="/videos/numero-poster.png"
+        >
+          <source src="/videos/numero.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div className=" sm:w-150 m-auto mb-8">
         <p className="text-xl leading-[1.7] leadin-[150%] mb-3 font-semibold  uppercase text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_67%,#5e5e63)]">
           Description
         </p>
@@ -87,7 +94,7 @@ export default function Numero() {
         </p>
       </div>
 
-      <div className="w-150 m-auto mb-18">
+      <div className="sm:w-150 m-auto mb-6 sm:mb-13">
         <p className="text-xl leading-[1.7] leadin-[150%] mb-3 font-semibold  uppercase text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_67%,#5e5e63)]">
           Compétences Acquises:
         </p>
@@ -113,27 +120,47 @@ export default function Numero() {
         </ul>
       </div>
 
-      <div className="flex flex-row justify-center items-center mb-16">
-        <div className="flex flex-col mr-8 w-120">
+      <div className="flex flex-col justify-center items-center mb-6 ">
+        <div className=" flex flex-col  mb-12 bg-[#f6f6f6] shadow-[0_0_0_0_#e6ebef,0_4px_24px_0_#00000014]">
+          <iframe
+            src="https://view.genially.com/65f1f2024f8e2d0014643e9e"
+            frameborder="0"
+            className="rounded-xl sm:w-150 sm:h-100"
+          ></iframe>
+        </div>
+
+        <div className="flex flex-col mr-4 sm:w-150">
           <p className="font-extrabold text-xl mb-3 leading-[160%] text-transparent bg-clip-text bg-[linear-gradient(333deg,#323235_73%,#5e5e63)] uppercase">
             Présentation Diaporama
           </p>
           <p className="text-lg text-[#323235]">
-            Ces diapositives illustrent les différentes étapes du processus de
-            conception et de développement, mettant en avant les choix de
-            design, l'intégration de fonctionnalités et l'optimisation de
-            l'expérience utilisateur.
+            Ces diapositives présentent les différentes phases de conception et
+            de développement du projet, en mettant en lumière le contexte, les
+            choix technologiques ainsi que le déroulement global du projet.
           </p>
         </div>
-        <div className="flex flex-col mr-8">
-          <iframe
-            width="550"
-            height="350"
-            src="https://view.genially.com/65f1f2024f8e2d0014643e9e"
-            frameborder="0"
-            className="rounded-xl"
-          ></iframe>
-        </div>
+      </div>
+
+      <div className="flex flex-col justify-start m-auto sm:w-150 ">
+        <a
+          href="https://github.com/NoeCalmes/a-qui-est-ce-numero"
+          className="cursor-pointer bg-white py-2 px-2 flex items-center border-2 border-[#fafafa] rounded-lg mb-1.5  hover:bg-[#f6f6f6] hover:border-2 hover:border-white transition duration-200  sm:w-99"
+        >
+          <FaGithub className="w-6 h-6 mr-3 text-[#323235]" />
+          <p className="font-normal text-[14px] sm:text-[16px] text-transparent bg-clip-text bg-[linear-gradient(107deg,#74747a,#323235)] [-webkit-text-fill-color:transparent]">
+            Acceder au projet sur mon repository Github
+          </p>
+        </a>
+
+        <a
+          href="https://a-qui-est-ce-numero.com/numero/0270255888"
+          className="cursor-pointer bg-white p-2 flex items-center border-2 border-[#fafafa] rounded-lg mb-1.5  hover:bg-[#f6f6f6] hover:border-2 hover:border-white sm:w-95"
+        >
+          <FaExternalLinkAlt className="w-6 h-6 mr-3 text-[#323235]" />
+          <p className="font-normal text-[14px] sm:text-[16px] text-transparent bg-clip-text bg-[linear-gradient(107deg,#74747a,#323235)] [-webkit-text-fill-color:transparent] ">
+            Acceder a l'application web
+          </p>
+        </a>
       </div>
     </div>
   );

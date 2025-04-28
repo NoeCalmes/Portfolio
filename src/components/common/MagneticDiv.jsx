@@ -1,11 +1,10 @@
-// src/components/common/MagneticDiv.jsx
 import React, { useRef } from 'react'
 
 export default function MagneticDiv({
   children,
   className = '',
-  strengthX = 20,   // valeur par défaut
-  strengthY = 15    // valeur par défaut
+  strengthX = 20,   
+  strengthY = 15   
 }) {
   const ref = useRef(null)
 

@@ -49,7 +49,7 @@ export default function HamburgerMenu() {
   return (
     <div className="relative z-50 ">
       {/* Burger magnétique */}
-      <MagneticDiv className="inline-block">
+      <div className="inline-block">
         <button
           ref={buttonRef}
           aria-label={isOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
@@ -75,7 +75,7 @@ export default function HamburgerMenu() {
             />
           </div>
         </button>
-      </MagneticDiv>
+      </div>
 
       <AnimatePresence>
         {isOpen && (

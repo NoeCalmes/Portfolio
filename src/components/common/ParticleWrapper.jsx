@@ -39,7 +39,7 @@ export default function ParticleWrapper({ activeTab }) {
 
   return (
     <div
-      className="absolute left-1/2 top-36 w-[700px] h-[310px] pointer-events-none z-0"
+      className="hidden xl:block absolute left-1/2 top-36 sm:w-[700px] h-[310px] pointer-events-none z-0"
       style={{
         transform: `
           translate3d(-50%,0,0)

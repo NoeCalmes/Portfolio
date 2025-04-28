@@ -1,4 +1,3 @@
-// src/components/common/HeroIntro.jsx
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -19,9 +18,8 @@ const lineVariant = {
 };
 
 export default function HeroIntro({ activeTab }) {
-  const lines = [
-    "hi, i'm noé",
-    "toulouse, fr",
+
+  const defaultDesc = (
     <>
       Actuellement en Bachelor FullStack (3ᵉ année) chez{" "}
       <a
@@ -31,10 +29,31 @@ export default function HeroIntro({ activeTab }) {
         Finvens
       </a>{" "}
       et en recherche d’une alternance pour un Master
-    </>,
+    </>
+  );
+
+
+  const playDesc = (
+    <>
+      Passionné par le développement web et les nouvelles technologies, je me
+      dépasse chaque jour pour élargir mes compétences. En savoir plus sur{" "}
+      <a
+        href="about"
+        className="cursor-pointer inline-block px-[1px] shadow-[inset_0_-3px_0_0_#bdbdc5] transition-[box-shadow,color,border-radius] duration-150 ease-[cubic-bezier(.215,.61,.355,1)] hover:text-[#0e0e0f] hover:rounded-md hover:shadow-[inset_0_-40px_#e5e5e7,0_0_0_0.1px_#e5e5e7]"
+      >
+        moi
+      </a>
+      .
+    </>
+  );
+
+  const lines = [
+    "hi, i'm noé",
+    "toulouse, fr",
+    activeTab === "play" ? playDesc : defaultDesc,
   ];
 
-  // Choix du gradient selon la tab active
+  
   const gradient =
     activeTab === "work"
       ? "linear-gradient(141deg,#969699,#1e1e22)"
@@ -48,13 +67,13 @@ export default function HeroIntro({ activeTab }) {
       initial="hidden"
       animate="visible"
       variants={container}
-      className="flex flex-col items-center text-center space-y-4 mt-40 mb-35"
+      className="flex flex-col items-center text-center space-y-4 mt-25 mb-18 sm:mt-40 sm:mb-35"
     >
       {lines.map((text, i) => (
         <motion.div key={i} variants={lineVariant} className="text-gray-800">
           {i === 0 ? (
             <h1
-              className="text-[70px] font-black text-transparent bg-clip-text tracking-[-1.25px] inline-block"
+              className="text-[50px] sm:text-[70px] font-black text-transparent bg-clip-text tracking-[-1.25px] inline-block"
               style={{ backgroundImage: gradient }}
             >
               {text}
@@ -69,7 +88,7 @@ export default function HeroIntro({ activeTab }) {
               {text}
             </h2>
           ) : (
-            <p className="max-w-lg text-lg font-normal leading-relaxed text-[#5e5e63]">
+            <p className="max-w-lg text-[16px] px-7 sm:px-0 sm:text-lg font-normal leading-relaxed text-[#5e5e63]">
               {text}
             </p>
           )}
