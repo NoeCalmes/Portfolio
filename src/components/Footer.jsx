@@ -36,7 +36,7 @@ export default function Footer() {
         {/* CV */}
         <MagneticDiv strengthX={8} strengthY={8}  className="w-[44px] h-[44px] mx-3 rounded-[9px] bg-transparent hover:bg-white">
           <a
-            href="/path/to/CV.pdf"
+            href="cv-noecalmes.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full h-full block"

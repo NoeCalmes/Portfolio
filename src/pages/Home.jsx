@@ -65,10 +65,10 @@ function PlaySection() {
   const languagescode = [
     { name: "Synfony", level: 2, color: "#9dc5eb" },
     { name: "CodeIgniter", level: 2, color: "#827cfd" },
-    { name: "React", level: 2, color: "#8574f8" },
-    { name: "Vue Js", level: 2, color: "#9b74e0" },
-    { name: "Tailwind", level: 3, color: "#a973d0" },
-    { name: "Angular", level: 1, color: "#c573b2" },
+    { name: "Node JS", level: 2, color: "#8574f8" },
+    { name: "React", level: 2, color: "#9b74e0" },
+    { name: "Vue Js", level: 2, color: "#a973d0" },
+    { name: "Tailwind", level: 3, color: "#c573b2" },
   ];
 
   const softSkills = [
