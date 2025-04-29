@@ -41,7 +41,7 @@ export default function About() {
 
           {/* Toulouse */}
           <img
-            src="images/about/toulouse.png"
+            src="images/about/tree.png"
             alt="Toulouse"
             className="
         relative -top-10 sm:-top-16 md:-top-[108px]
