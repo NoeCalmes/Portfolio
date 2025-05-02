@@ -216,7 +216,7 @@ function PlaySection() {
       </div>
 
       <div className="flex sm:flex-row flex-col m-auto md:w-230 md:gap-9 ">
-        <div className="flex flex-col md:w-1/2 m-6 sm:m-0 sm:md-0">
+        <div className="flex flex-col md:w-1/2 m-6 sm:m-0 ">
           <div className="mb-9 md:mb-9">
             <div className="bg-[#eceff1] cursor-hover-target rounded-3xl flex flex-col justify-start items p-10 transform transition-transform duration-200 ease-out hover:bg-[#f6f6f6] hover:shadow-[0_0_0_0_#e6ebef,0_4px_24px_0_#00000014] hover:scale-[1.02] ">
               <div className="flex flex-col mb-9">
@@ -302,7 +302,9 @@ function PlaySection() {
 export default function Home({ activeTab }) {
   return (
     <div className="relative pt-[92px] min-h-screen ">
-      <CursorTrail />
+      <div className="hidden sm:block">
+        <CursorTrail />
+      </div>
       <HeroIntro activeTab={activeTab} />
       <ParticleWrapper activeTab={activeTab} />
       {activeTab === "work" ? <WorkSection /> : <PlaySection />}

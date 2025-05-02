@@ -5,7 +5,7 @@
 /* 1. Police custom (ne pas toucher) */
 @font-face {
   font-family: "InterOfficial";
-  src: url("../public/fonts\Inter-Regular.woff2") format("woff2");
+  src: url("../public/fonts/Inter-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
