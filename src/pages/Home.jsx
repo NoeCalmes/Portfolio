@@ -140,7 +140,7 @@ function PlaySection() {
           setInView(true);
         }
       },
-      { threshold: 0.5 }
+      { threshold: 0.2 }
     );
 
     if (sectionRef.current) {

@@ -46,6 +46,13 @@ export default function Navbar({ activeTab, setActiveTab }) {
     }
   }, [activeTab, isBackPage]);
 
+  useEffect(() => {
+    ["/icons/noe/1.svg", "/icons/noe/2.svg", "/icons/noe/3.svg"].forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, []);
+
   //avatar hover effect
   const [isHovered, setIsHovered] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
