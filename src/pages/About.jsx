@@ -12,10 +12,10 @@ export default function About() {
         className="w-full flex justify-center px-4 sm:px-10 md:px-20"
       >
         <div className="flex items-end justify-center ">
-          {/* Olive */}
+          {/* Trail */}
           <img
-            src="images/about/first.png"
-            alt="Olive"
+            src="images/about/trail.png"
+            alt="Trail"
             className="
         relative -top-6 sm:-top-8 md:-top-9
         w-[105px] sm:w-[180px] md:w-[270px]
@@ -25,9 +25,9 @@ export default function About() {
       "
           />
 
-          {/* Waterfall */}
+          {/* Me */}
           <img
-            src="images/about/two.png"
+            src="images/about/me.png"
             alt="Waterfall"
             className="
         relative top-0
@@ -39,10 +39,10 @@ export default function About() {
       "
           />
 
-          {/* Toulouse */}
+          {/* Fise */}
           <img
-            src="images/about/tree.png"
-            alt="Toulouse"
+            src="images/about/fise.png"
+            alt="Fise"
             className="
         relative -top-10 sm:-top-16 md:-top-[108px]
         w-[113px] sm:w-[240px] md:w-[350px]
@@ -55,7 +55,6 @@ export default function About() {
         </div>
       </MagneticDiv>
 
-      {/* Texte sous les images */}
       <div className="w-full max-w-[600px] mt-12 mx-auto pt-7 p-6 sm:p-0">
         <h1
           className="
