@@ -8,7 +8,7 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "build": "vite build",
-        "postbuild": "node generate-sitemap.js",
+        "postbuild": "node generate-sitemap.mjs",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
