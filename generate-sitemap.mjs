@@ -1,4 +1,4 @@
-const { SitemapStream, streamToPromise } = require('sitemap');
+import { SitemapStream, streamToPromise } from 'sitemap';
 import { createWriteStream } from 'fs';
 
 (async () => {
