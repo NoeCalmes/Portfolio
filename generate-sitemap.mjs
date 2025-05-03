@@ -1,5 +1,5 @@
 const { SitemapStream, streamToPromise } = require('sitemap');
-const { createWriteStream } = require('fs');
+import { createWriteStream } from 'fs';
 
 (async () => {
   const sitemap = new SitemapStream({ hostname: 'https://www.noecalmes.fr' });
