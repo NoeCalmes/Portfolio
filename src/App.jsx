@@ -15,7 +15,6 @@ export default function App() {
 
   return (
     <Layout>
-      {/* on passe activeTab et setActiveTab */}
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
       <ScrollToTop />
       <Routes>

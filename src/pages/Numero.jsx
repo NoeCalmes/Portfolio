@@ -1,4 +1,3 @@
-// src/pages/Numero.jsx
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";

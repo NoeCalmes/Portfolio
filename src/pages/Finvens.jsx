@@ -1,7 +1,4 @@
-// src/pages/Numero.jsx
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
 export default function Numero() {
   return (
     <div className="pt-30 min-h-screen max-w-232 flex flex-col  m-auto mb-25 p-6">
