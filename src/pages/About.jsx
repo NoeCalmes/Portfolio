@@ -80,7 +80,7 @@ export default function About() {
             "
         >
           Actuellement en 3ᵉ année de Bachelor FullStack à Toulouse, je
-          recherche une alternance pour un Master. Passionné depuis bientôt
+          recherche une alternance pour un Master Developpeur Full Stack. Passionné depuis bientôt
           quatre ans par le développement web, je suis d’abord attiré par le
           back‑end, et j’apprécie de plus en plus le front‑end.
         </p>

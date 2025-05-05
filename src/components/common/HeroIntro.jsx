@@ -28,7 +28,7 @@ export default function HeroIntro({ activeTab }) {
       >
         Finvens
       </a>{" "}
-      et en recherche d’une alternance pour un Master
+      et en recherche d’une alternance pour un Master Dev Full Stack
     </>
   );
 
