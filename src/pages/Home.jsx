@@ -67,7 +67,8 @@ function PlaySection() {
     { name: "CodeIgniter", level: 2, color: "#827cfd" },
     { name: "Node JS", level: 2, color: "#8574f8" },
     { name: "React", level: 1, color: "#9b74e0" },
-    { name: "Vue Js", level: 2, color: "#a973d0" },
+    { name: "Vue Js", level: 1, color: "#a973d0" },
+    { name: "Angular", level: 1, color: "#a973d0" },
     { name: "Tailwind", level: 2, color: "#c573b2" },
   ];
 
@@ -79,9 +80,9 @@ function PlaySection() {
   ];
 
   const languages = [
+    { name: "Contrôle de version (Git, GitLab, GitHub)", icon: MdArrowForward },
     { name: "API REST (Monitoring & tests) ", icon: MdArrowForward },
     { name: "Tests unitaires (Vitest, PHPUnit)", icon: MdArrowForward },
-    { name: "Analyse statique (PHPStan)", icon: MdArrowForward },
     { name: "Conteneurisation (Docker)", icon: MdArrowForward },
   ];
 

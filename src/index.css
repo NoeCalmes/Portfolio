@@ -59,6 +59,10 @@ body {
   opacity: 0; /* par défaut invisible */
   transition: opacity 0.3s ease;
 }
+::selection {
+  background-color: #949494;
+  color: white;
+}
 
 
 

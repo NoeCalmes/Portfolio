@@ -79,10 +79,11 @@ export default function About() {
               leading-[170%]
             "
         >
-          Actuellement en 3ᵉ année de Bachelor FullStack à Toulouse, je
-          recherche une alternance pour un Master Developpeur Full Stack. Passionné depuis bientôt
-          quatre ans par le développement web, je suis d’abord attiré par le
-          back‑end, et j’apprécie de plus en plus le front‑end.
+          Actuellement en 3ᵉ année de Bachelor FullStack à Toulouse, je suis à
+          la recherche d’une nouvelle opportunité professionnelle en tant que
+          développeur Full Stack à partir de novembre 2025. Passionné depuis
+          bientôt quatre ans par le développement web, je suis d’abord attiré
+          par le back‑end, et j’apprécie de plus en plus le front‑end.
         </p>
         <p
           className="
@@ -109,9 +110,7 @@ export default function About() {
           Mon BTS SIO m’a permis de développer une plateforme de signalement de
           numéros de téléphone et de réaliser divers projets stimulants.
           Poursuivant ma route, j’ai intégré Finvens en alternance pour ma 3ᵉ
-          année de Bachelor FullStack, et je prépare désormais un Master en
-          alternance pour approfondir mes compétences et continuer à vivre ma
-          passion pour le développement.
+          année de Bachelor FullStack.
         </p>
         <p
           className="

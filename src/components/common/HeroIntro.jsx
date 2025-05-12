@@ -18,20 +18,18 @@ const lineVariant = {
 };
 
 export default function HeroIntro({ activeTab }) {
-
   const defaultDesc = (
     <>
-      Actuellement en Bachelor FullStack (3ᵉ année) chez{" "}
+      Actuellement en Bachelor FullStack (3ᵉ année) chez{"  "}
       <a
         href="https://finvens.fr/"
         className="cursor-pointer inline-block px-[1px] shadow-[inset_0_-3px_0_0_#bdbdc5] transition-[box-shadow,color,border-radius] duration-150 ease-[cubic-bezier(.215,.61,.355,1)] hover:text-[#0e0e0f] hover:rounded-md hover:shadow-[inset_0_-40px_#e5e5e7,0_0_0_0.1px_#e5e5e7]"
       >
         Finvens
       </a>{" "}
-      et en recherche d’une alternance pour un Master Full Stack
+      et en recherche d'une nouvelle opportunité à partir de novembre 2025.
     </>
   );
-
 
   const playDesc = (
     <>
@@ -53,7 +51,6 @@ export default function HeroIntro({ activeTab }) {
     activeTab === "play" ? playDesc : defaultDesc,
   ];
 
-  
   const gradient =
     activeTab === "work"
       ? "linear-gradient(141deg,#969699,#1e1e22)"
