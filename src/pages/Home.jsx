@@ -68,7 +68,6 @@ function PlaySection() {
     { name: "Node JS", level: 2, color: "#8574f8" },
     { name: "React", level: 1, color: "#9b74e0" },
     { name: "Vue Js", level: 1, color: "#a973d0" },
-    { name: "Angular", level: 1, color: "#a973d0" },
     { name: "Tailwind", level: 2, color: "#c573b2" },
   ];
 
